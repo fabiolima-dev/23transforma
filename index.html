@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <title>23 Transforma</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="w-full fixed top-0 h-[100px] z-20 bg-primary">
+      <div
+        class="md:max-w-screen-xl m-auto flex items-center justify-between h-[100px]"
+      >
+        <nav class="flex w-full justify-around items-center">
+          <ul>
+            <li>
+              <a>Motivos</a>
+            </li>
+            <li>
+              <a>Como funciona?</a>
+            </li>
+          </ul>
+          <a>Home</a>
+        </nav>
+        <div class="rounded-full p-4 bg-primary mt-10 w-[300px]">
+          <img src="./assets/logo.png" alt="Logo 23 Transforma" width="120px" />
+        </div>
+        <nav class="flex w-full justify-around items-center">
+          <a>Home</a>
+          <a>Motivos</a>
+          <button class="text-lg p-4">Fazer parte</button>
+        </nav>
+      </div>
+    </header>
+    <!-- Home -->
+    <main
+      class="h-full min-h-screen w-full bg-[url('/assets/home-fundo.jpg')] bg-cover px-5 md:px-20"
+    >
+      <div
+        class="absolute w-full h-full bg-primary top-0 left-0 opacity-95"
+      ></div>
+      <div
+        class="relative flex m-auto md:max-w-screen-xl h-full text-secondary"
+      >
+        <div class="h-full flex flex-col">
+          <div class="h-[120px] shrink-0"></div>
+          <div class="flex flex-col justify-center gap-20 items-start grow">
+            <div class="flex flex-col gap-8">
+              <h1>Sua oportunidade de transformação!</h1>
+              <h2>
+                23 dias para transformar de vez a sua alimentação, sua relação
+                com a comida, hábitos e estilo de vida.
+              </h2>
+            </div>
+            <p>
+              Não é mais um grupo de emagrecimento! É o passo-a-passo para você
+              <b>
+                conquistar de vez a sua autonomia alimentar, se libertar de
+                crenças, saboratores e hábitos
+              </b>
+              que te impedem de conquistar seus objetivos (perder peso, melhorar
+              a alimentação, mudar hábitos, seguir uma rotina equilibrada) e ter
+              a qualidade de vida que você busca e merece.<br /><br />Afinal, é
+              difícil viver bem quando não se alimenta bem, não dorme bem, não
+              se exercita, o intestino não funciona direito, não consegue lidar
+              com o estresse, não se planeja e nem executa o que é necessário,
+              não dá conta de fazer nem o básico.. Não é mesmo?
+            </p>
+            <button>QUERO MUDAR ISSO!</button>
+          </div>
+        </div>
+        <div class="hidden lg:flex min-w-fit">
+          <img
+            width="500px"
+            src="./assets/bruna-busto.png"
+            alt="Foto da Nutricionista Bruna Camilotto, criadora do desafio"
+          />
+        </div>
+      </div>
+    </main>
+    <!-- Motivos -->
+    <section
+      class="text-secondary flex justify-center min-h-[600px] w-full p-5 md:px-20 gap-5"
+    >
+      <div class="flex flex-col justify-evenly md:max-w-screen-xl w-full">
+        <h1 class="text-center">Motivos para estar no Transforma 23:</h1>
+        <div
+          class="flex flex-wrap justify-between items-center gap-10 w-full lg:flex-nowrap"
+        >
+          <div
+            class="bg-primary rounded-xl p-4 py-6 max-w-[250px] shrink-1 h-80 flex flex-col justify-start items-center gap-8"
+          >
+            <img
+              src="./assets/icone-comunicação.png"
+              alt="Ícone de grupo trocando experiências"
+            />
+            <p class="text-center flex items-center h-full">
+              Estar em um grupo motivado, engajado e comprometido; troca de
+              experiências e incentivo
+            </p>
+          </div>
+          <div
+            class="bg-primary rounded-xl p-4 py-6 max-w-[250px] shrink-1 h-80 flex flex-col justify-start items-center gap-8"
+          >
+            <img
+              src="./assets/icone-acompanhamento-nutricionista.png"
+              alt="Ícone de grupo trocando experiências"
+            />
+            <p class="text-center flex items-center h-full">
+              Acompanhamento diário de nutricionista por 23 dias
+            </p>
+          </div>
+          <div
+            class="bg-primary rounded-xl p-4 py-6 max-w-[250px] shrink-1 h-80 flex flex-col justify-start items-center gap-8"
+          >
+            <img
+              src="./assets/icone-auto-estima.png"
+              alt="Ícone de grupo trocando experiências"
+            />
+            <p class="text-center flex items-center h-full">
+              Ajuda para resgatar a sua autoestima e autoconfiança, gerar
+              autoconhecimento
+            </p>
+          </div>
+          <div
+            class="bg-primary rounded-xl p-4 py-6 max-w-[250px] shrink-1 h-80 flex flex-col justify-start items-center gap-8"
+          >
+            <img
+              src="./assets/icone-materiais-e-ferramentas.png"
+              alt="Ícone de grupo trocando experiências"
+            />
+            <p class="text-center flex items-center h-full">
+              Materiais e ferramentas, para facilitar a rotina e alimentação,
+              auxiliar na adesão de novos hábitos
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Como funciona -->
+    <section
+      class="bg-secondary flex justify-center min-h-[700px] w-full p-5 md:px-20 gap-5"
+    >
+      <div class="flex flex-col justify-around md:max-w-screen-xl w-full">
+        <h1 class="text-tertiary text-center my-10">
+          Como funciona o Transforma 23?
+        </h1>
+        <div
+          class="flex flex-wrap justify-between items-center gap-10 text-primary w-full lg:flex-nowrap text-center"
+        >
+          <div
+            class="p-4 max-w-[300px] shrink-1 h-80 flex flex-col justify-between items-center"
+          >
+            <div class="flex flex-col gap-4">
+              <h1 class="text-7xl">1</h1>
+              <h2 class="bg-primary text-secondary px-2">TEORIA</h2>
+            </div>
+            <p>
+              Você vai aprender o que a ciência diz sobre a construção e
+              modificação dos hábitos, entender como deve ser uma alimentação e
+              estilo de vida saudáveis
+            </p>
+          </div>
+          <div
+            class="p-4 max-w-[300px] shrink-1 h-80 flex flex-col justify-between items-center"
+          >
+            <div class="flex flex-col gap-4">
+              <h1 class="text-7xl">2</h1>
+              <h2 class="bg-primary text-secondary px-2">PRÁTICA</h2>
+            </div>
+            <p>
+              Além de saber na teoria, com as ferramentas e atividades diárias,
+              você vai aplicar os conhecimentos e já perceber as mudanças na
+              vida
+            </p>
+          </div>
+          <div
+            class="p-4 max-w-[300px] shrink-1 h-80 flex flex-col justify-between items-center"
+          >
+            <div class="flex flex-col gap-4">
+              <h1 class="text-7xl">3</h1>
+              <h2 class="bg-primary text-secondary px-2">CONSTÂNCIA</h2>
+            </div>
+            <p>
+              A repetição é fundamental para que as modificações implementadas
+              sejam duradouras. E o acompanhamento diário vai te ajudar bastante
+              com isso
+            </p>
+          </div>
+        </div>
+        <button class="bg-quaternary text-secondary w-fit m-auto">
+          QUERO FAZER PARTE!
+        </button>
+      </div>
+    </section>
+    <!-- Para quem é? -->
+    <section
+      class="bg-primary flex justify-center min-h-[700px] w-full p-5 md:px-20 gap-5"
+    >
+      <div class="flex flex-col justify-evenly md:max-w-screen-xl w-full">
+        <h1 class="text-secondary text-center">Para quem é?</h1>
+        <div
+          class="flex flex-col justify-between items-center gap-10 text-primary w-full text-center"
+        >
+          <div class="flex flex-wrap gap-10 justify-center">
+            <div
+              class="bg-tertiary p-4 max-w-[500px] shrink-1 h-48 flex flex-col justify-evenly items-center text-secondary rounded-xl"
+            >
+              <h2>Quem quer direcionamento</h2>
+              <p>
+                Se sente perdida (o) com tantas informações divergentes sobre
+                alimentação, quer melhorar a sua e não sabe por onde ou como
+                começar
+              </p>
+            </div>
+            <div
+              class="bg-tertiary p-4 max-w-[500px] shrink-1 h-48 flex flex-col justify-evenly items-center text-secondary rounded-xl"
+            >
+              <h2>Quem quer motivação</h2>
+              <p>
+                Você, que anda desmotivada (o) e precisa de companhia e o
+                ambiente certo para te ajudar a construir novos hábitos
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-wrap gap-10 justify-center">
+            <div
+              class="bg-tertiary p-4 max-w-[500px] shrink-1 h-48 flex flex-col justify-evenly items-center text-secondary rounded-xl"
+            >
+              <h2>Quem quer organização</h2>
+              <p>
+                Sente necessidade de criar uma rotina saudável, mas tem
+                dificuldade de organização, planejamento e execução
+              </p>
+            </div>
+            <div
+              class="bg-tertiary p-4 max-w-[500px] shrink-1 h-48 flex flex-col justify-evenly items-center text-secondary rounded-xl"
+            >
+              <h2>Quem quer saúde</h2>
+              <p>
+                Quer transformar definitivamente sua saúde (comer adequadamente,
+                dormir bem, ter mais disposição, energia, disciplina e
+                bem-estar)
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Para quem não é? -->
+    <section
+      class="bg-tertiary flex justify-center min-h-[400px] w-full p-5 md:px-20 gap-5"
+    >
+      <div class="flex flex-col justify-evenly md:max-w-screen-xl w-full">
+        <h1 class="text-secondary text-center">Para quem não é?</h1>
+        <div
+          class="flex flex-col justify-between items-center gap-10 text-primary w-full text-center"
+        >
+          <div class="flex flex-wrap gap-10 justify-center">
+            <div
+              class="bg-secondary p-4 max-w-[250px] shrink-1 h-48 flex flex-col justify-evenly items-center text-tertiary rounded-xl"
+            >
+              <p>
+                Quem prefere ficar na zona de conforto e está satisfeito com os
+                resultados e qualidade de vida que tem
+              </p>
+            </div>
+            <div
+              class="bg-secondary p-4 max-w-[250px] shrink-1 h-48 flex flex-col justify-evenly items-center text-tertiary rounded-xl"
+            >
+              <p>
+                Quem quer resultado rápido, sem esforço e não está disposto a
+                mudar hábitos e ser consistente nas ações
+              </p>
+            </div>
+            <div
+              class="bg-secondary p-4 max-w-[250px] shrink-1 h-48 flex flex-col justify-evenly items-center text-tertiary rounded-xl"
+            >
+              <p>
+                Quem já tem a rotina organizada e não precisa ou não quer
+                modificar nenhum aspecto da saúde
+              </p>
+            </div>
+            <div
+              class="bg-secondary p-4 max-w-[250px] shrink-1 h-48 flex flex-col justify-evenly items-center text-tertiary rounded-xl"
+            >
+              <p>
+                Quem procura uma dieta milagrosa, alimentação restritiva e só se
+                preocupa com calorias dos alimentos
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Ainda está com dúvidas? -->
+    <section
+      class="bg-quaternary flex justify-center min-h-screen w-full p-5 md:px-20 gap-5"
+    >
+      <div
+        class="flex flex-col justify-evenly md:max-w-screen-xl w-full gap-10"
+      >
+        <h1 class="text-secondary text-center">Ainda está com dúvidas?</h1>
+        <div
+          class="flex flex-col justify-between items-center gap-10 text-primary w-full text-center"
+        >
+          <div class="flex flex-wrap gap-10 justify-center">
+            <div
+              class="bg-tertiary p-4 max-w-[500px] shrink-1 h-48 flex flex-col justify-evenly items-center text-secondary rounded-xl"
+            >
+              <h2>Vai ter dieta ou cardápio para seguir?</h2>
+              <p>
+                Não, o objetivo é te capacitar para que você consiga fazer suas
+                escolhas alimentares com autonomia, sem depender de plano
+                alimentar ou cardápio. Você vai aprender a função dos alimentos
+                e como combiná-los para ter uma alimentação equilibrada.
+              </p>
+            </div>
+            <div
+              class="bg-tertiary p-4 max-w-[500px] shrink-1 h-48 flex flex-col justify-evenly items-center text-secondary rounded-xl"
+            >
+              <h2>Não consigo agir com consistência</h2>
+              <p>
+                Isso é uma questão de escolha. No programa, você vai ter o apoio
+                e incentivo de uma profissional e de colegas, o que torna muito
+                mais fácil de continuar. Um meus dos objetivos é te ajudar a
+                agir com propósito e tendo clareza dele, fica mais fácil ser
+                consistente.
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-wrap gap-10 justify-center">
+            <div
+              class="bg-tertiary p-4 max-w-[500px] shrink-1 h-48 flex flex-col justify-evenly items-center text-secondary rounded-xl"
+            >
+              <h2>Sou vegetariana (o), posso participar?</h2>
+              <p>
+                Claro! Sua escolha alimentar não vai inteferir em nada na
+                aplicação do programa. Além disso, aqui você vai aprender a como
+                fazer as combinações alimentares (com ou sem alimentos de origem
+                animal).
+              </p>
+            </div>
+            <div
+              class="bg-tertiary p-4 max-w-[500px] shrink-1 h-48 flex flex-col justify-evenly items-center text-secondary rounded-xl"
+            >
+              <h2>Não tenho tempo</h2>
+              <p>
+                Se quer otimizar seu tempo e investir ele em atitudes que vão
+                trazer resultado para a sua saúde, é aqui que você deve estar!
+                As atividades diárias são curtas e dinâmicas, pensadas para você
+                já colocar em prática as mudanças que deseja, sem enrolação.
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-wrap gap-10 justify-center">
+            <div
+              class="bg-tertiary p-4 max-w-[500px] shrink-1 h-48 flex flex-col justify-evenly items-center text-secondary rounded-xl"
+            >
+              <h2>Terei que abrir mão de muitas coisas?</h2>
+              <p>
+                Não. O intuito é te ajudar a encontrar o equilíbrio necessário
+                para uma vida saúdavel e aprender a lidar com as situações
+                sociais, para que elas não atrapalhem mais os seus objetivos.
+              </p>
+            </div>
+            <div
+              class="bg-tertiary p-4 max-w-[500px] shrink-1 h-48 flex flex-col justify-evenly items-center text-secondary rounded-xl"
+            >
+              <h2>Minha vida é uma bagunça!</h2>
+              <p>
+                É justamente por isso que você deve participar desse programa.
+                Vou te ajudar a organizar o ambiente ao seu redor, para que
+                consiga modificar os hábitos permanentemente.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button class="bg-quaternary text-secondary w-fit mx-auto">
+          VOU INVESTIR EM MIM!
+        </button>
+      </div>
+    </section>
+    <!-- Resultados Esperados -->
+    <section
+      class="bg-primary flex justify-center min-h-[700px] w-full p-5 md:px-20 gap-5"
+    >
+      <div class="flex flex-col justify-evenly md:max-w-screen-xl w-full">
+        <h1 class="text-secondary text-center">
+          Esses são alguns dos resultados esperados:
+        </h1>
+        <div
+          class="flex flex-col justify-between items-center gap-10 text-primary w-full"
+        >
+          <div class="flex flex-wrap gap-10 justify-center">
+            <div
+              class="p-4 max-w-[550px] shrink-1 h-48 flex flex-col justify-evenly text-secondary"
+            >
+              <p>
+                Ter clareza de onde está hoje, de onde quer ir e das ações
+                necessárias para isso (aprender a o caminho e passo-a-passo
+                necessários para chegar lá)
+              </p>
+              <h2 class="bg-secondary text-quaternary w-fit px-2">
+                AGIR COM PROPÓSITO
+              </h2>
+            </div>
+            <div
+              class="p-4 max-w-[550px] shrink-1 h-48 flex flex-col justify-evenly text-secondary"
+            >
+              <p>
+                Se tornar mais produtiva (o), organizada (o), planejando seus
+                objetivos, metas e rotina, e principalmente, cumprindo os
+                combinados
+              </p>
+              <h2 class="bg-secondary text-quaternary w-fit px-2">
+                SE TORNAR EXECUTOR (A)
+              </h2>
+            </div>
+          </div>
+          <div class="flex flex-wrap gap-10 justify-center">
+            <div
+              class="p-4 max-w-[550px] shrink-1 h-48 flex flex-col justify-evenly text-secondary"
+            >
+              <p>
+                Aprender a fazer suas escolhas alimentares e não ser mais refém
+                de dietas, do terrorismo nutricional ou de informações
+                controvérsas sobre os alimentos
+              </p>
+              <h2 class="bg-secondary text-quaternary w-fit px-2">
+                CONQUISTAR AUTONOMIA ALIMENTAR
+              </h2>
+            </div>
+            <div
+              class="p-4 max-w-[550px] shrink-1 h-48 flex flex-col justify-evenly text-secondary"
+            >
+              <p>
+                Seguindo as atividades propostas e aplicando de forma constante,
+                o resultado virá (iremos conversar sobre metas
+                atingíveis/realistas durante o programa)
+              </p>
+              <h2 class="bg-secondary text-quaternary w-fit px-2">
+                ATINGIR SEUS RESULTADOS
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Bônus -->
+    <section
+      class="bg-secondary flex justify-center min-h-[300px] w-full p-5 md:px-20 gap-5"
+    >
+      <div class="flex md:max-w-screen-xl w-full">
+        <div class="w-1/2 bg-primary h-full"></div>
+        <div class="flex flex-col justify-center gap-10 p-10">
+          <h1 class="bg-primary w-fit px-2">E ainda tem bônus!</h1>
+          <p>
+            Os participantes mais engajados e executores (que colocarem mais
+            desafios em prática), receberão prêmios exclusivos.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Valor -->
+    <section
+      class="bg-primary flex justify-center min-h-[600px] w-full p-5 md:px-20 gap-5"
+    >
+      <div class="flex md:max-w-screen-xl w-full">
+        <div class="w-1/2 h-full flex flex-col justify-evenly items-center">
+          <div
+            class="h-[350px] min-w-[450px] flex flex-col items-center justify-evenly bg-quaternary rounded-xl"
+          >
+            <div class="flex flex-col items-center gap-4">
+              <p>Menos que 1 cafézinho por dia</p>
+              <p>Apenas</p>
+            </div>
+            <h1>R$ 37,00</h1>
+            <button class="bg-secondary text-primary">
+              QUERO ME INSCREVER
+            </button>
+          </div>
+          <h2>7 dias de garantia</h2>
+        </div>
+        <div class="flex flex-col justify-center gap-10 p-10">
+          <h2>Durante o programa você vai receber:</h2>
+          <ul class="flex flex-col gap-4">
+            <li>
+              A Rota do Sucesso - checklist das ações que precisa colocar em
+              prática
+            </li>
+            <li>Ferramenta diagnóstico da sua saúde</li>
+            <li>Plano de ação</li>
+            <li>Atividades diárias para cumprir</li>
+            <li>
+              Materiais para te ajudar nesse processo (ebook, planner, tracker)
+            </li>
+            <li>Acesso ao grupo para troca de experiências</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- Valor -->
+    <section
+      class="bg-quaternary flex justify-center min-h-[600px] w-full p-5 md:px-20 gap-5"
+    >
+      <div class="flex md:max-w-screen-xl w-full">
+        <div
+          class="w-1/2 h-full flex flex-col justify-evenly items-center"
+        ></div>
+        <div class="flex flex-col justify-center gap-10 p-10">
+          <h2>Olá! Eu sou a BRUNA</h2>
+          <p>
+            Prazer, meu nome é Bruna Avena Camilotto, sou nutricionista há anos
+            e minha missão é contribuir na melhora do relacionamento das pessoas
+            com a comida e capacitá- las a fazerem escolhas mais conscientes e
+            sustentáveis.<br /><br />
+            Por isso, considero fundamental entender e trabalhar o comportamento
+            alimentar, pois comer é um ato social, cultural, emocional,
+            fisiológico e não pode ser resumido a uma dieta ou cardápio.<br /><br />
+            Te convido a pensar na nutrição sobre uma outra perspectiva. Vem
+            comigo!
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Ainda com dúvidas? -->
+    <section
+      class="bg-primary flex justify-center min-h-[250px] w-full p-5 md:px-20 gap-5"
+    >
+      <div
+        class="flex md:max-w-screen-xl w-full flex-col items-center justify-evenly"
+      >
+        <h1>Ainda com dúvidas?</h1>
+        <button class="w-fit bg-primary border-[1px] border-secondary">
+          CHAMA NO WHATSAPP! ☺️
+        </button>
+      </div>
+    </section>
+    <!-- Ainda com dúvidas? -->
+    <footer
+      class="bg-secondary flex justify-center min-h-[250px] w-full p-5 md:px-20 gap-5"
+    >
+      <div class="flex md:max-w-screen-xl w-full items-center justify-between">
+        <img src="assets/logo.png" alt="Logo 23 Transforma" width="200px" />
+        <p class="text-primary text-right">
+          Copyright © 2023<br />
+          Todos os direitos reservados.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
