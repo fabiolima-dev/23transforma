@@ -71,10 +71,10 @@
             <button>QUERO MUDAR ISSO!</button>
           </div>
         </div>
-        <div class="hidden lg:flex min-w-fit">
+        <div class="hidden lg:flex min-w-fit -mr-20">
           <img
-            width="500px"
-            src="./assets/bruna-busto.png"
+            class="object-scale-down relative w-[750px] h-full"
+            src="./assets/Group.png"
             alt="Foto da Nutricionista Bruna Camilotto, criadora do desafio"
           />
         </div>
@@ -297,7 +297,7 @@
     </section>
     <!-- Ainda está com dúvidas? -->
     <section
-      class="bg-quaternary flex justify-center min-h-screen w-full p-5 md:px-20 gap-5"
+      class="bg-primary flex justify-center min-h-screen w-full p-5 md:px-20 gap-5"
     >
       <div
         class="flex flex-col justify-evenly md:max-w-screen-xl w-full gap-10"
@@ -308,7 +308,7 @@
         >
           <div class="flex flex-wrap gap-10 justify-center">
             <div
-              class="bg-tertiary p-4 max-w-[500px] shrink-1 h-48 flex flex-col justify-evenly items-center text-secondary rounded-xl"
+              class="bg-tertiary p-4 max-w-[550px] shrink-1 h-56 flex flex-col justify-evenly items-center text-secondary rounded-xl"
             >
               <h2>Vai ter dieta ou cardápio para seguir?</h2>
               <p>
@@ -319,7 +319,7 @@
               </p>
             </div>
             <div
-              class="bg-tertiary p-4 max-w-[500px] shrink-1 h-48 flex flex-col justify-evenly items-center text-secondary rounded-xl"
+              class="bg-tertiary p-4 max-w-[550px] shrink-1 h-56 flex flex-col justify-evenly items-center text-secondary rounded-xl"
             >
               <h2>Não consigo agir com consistência</h2>
               <p>
@@ -333,7 +333,7 @@
           </div>
           <div class="flex flex-wrap gap-10 justify-center">
             <div
-              class="bg-tertiary p-4 max-w-[500px] shrink-1 h-48 flex flex-col justify-evenly items-center text-secondary rounded-xl"
+              class="bg-tertiary p-4 max-w-[550px] shrink-1 h-56 flex flex-col justify-evenly items-center text-secondary rounded-xl"
             >
               <h2>Sou vegetariana (o), posso participar?</h2>
               <p>
@@ -344,7 +344,7 @@
               </p>
             </div>
             <div
-              class="bg-tertiary p-4 max-w-[500px] shrink-1 h-48 flex flex-col justify-evenly items-center text-secondary rounded-xl"
+              class="bg-tertiary p-4 max-w-[550px] shrink-1 h-56 flex flex-col justify-evenly items-center text-secondary rounded-xl"
             >
               <h2>Não tenho tempo</h2>
               <p>
@@ -357,7 +357,7 @@
           </div>
           <div class="flex flex-wrap gap-10 justify-center">
             <div
-              class="bg-tertiary p-4 max-w-[500px] shrink-1 h-48 flex flex-col justify-evenly items-center text-secondary rounded-xl"
+              class="bg-tertiary p-4 max-w-[550px] shrink-1 h-56 flex flex-col justify-evenly items-center text-secondary rounded-xl"
             >
               <h2>Terei que abrir mão de muitas coisas?</h2>
               <p>
@@ -367,7 +367,7 @@
               </p>
             </div>
             <div
-              class="bg-tertiary p-4 max-w-[500px] shrink-1 h-48 flex flex-col justify-evenly items-center text-secondary rounded-xl"
+              class="bg-tertiary p-4 max-w-[550px] shrink-1 h-56 flex flex-col justify-evenly items-center text-secondary rounded-xl"
             >
               <h2>Minha vida é uma bagunça!</h2>
               <p>
@@ -385,7 +385,7 @@
     </section>
     <!-- Resultados Esperados -->
     <section
-      class="bg-primary flex justify-center min-h-[700px] w-full p-5 md:px-20 gap-5"
+      class="bg-tertiary flex justify-center min-h-[700px] w-full p-5 md:px-20 gap-5"
     >
       <div class="flex flex-col justify-evenly md:max-w-screen-xl w-full">
         <h1 class="text-secondary text-center">
@@ -456,8 +456,10 @@
       <div class="flex md:max-w-screen-xl w-full">
         <div class="w-1/2 bg-primary h-full"></div>
         <div class="flex flex-col justify-center gap-10 p-10">
-          <h1 class="bg-primary w-fit px-2">E ainda tem bônus!</h1>
-          <p>
+          <h1 class="bg-primary w-fit px-2 text-secondary">
+            E ainda tem bônus!
+          </h1>
+          <p class="text-primary">
             Os participantes mais engajados e executores (que colocarem mais
             desafios em prática), receberão prêmios exclusivos.
           </p>
@@ -471,22 +473,21 @@
       <div class="flex md:max-w-screen-xl w-full">
         <div class="w-1/2 h-full flex flex-col justify-evenly items-center">
           <div
-            class="h-[350px] min-w-[450px] flex flex-col items-center justify-evenly bg-quaternary rounded-xl"
+            class="h-[350px] min-w-[450px] flex flex-col items-center justify-evenly bg-quaternary rounded-xl text-secondary"
           >
             <div class="flex flex-col items-center gap-4">
-              <p>Menos que 1 cafézinho por dia</p>
-              <p>Apenas</p>
+              <h2>Menos que 1 cafézinho por dia</h2>
+              <h3>Apenas</h3>
             </div>
             <h1>R$ 37,00</h1>
             <button class="bg-secondary text-primary">
               QUERO ME INSCREVER
             </button>
           </div>
-          <h2>7 dias de garantia</h2>
         </div>
         <div class="flex flex-col justify-center gap-10 p-10">
           <h2>Durante o programa você vai receber:</h2>
-          <ul class="flex flex-col gap-4">
+          <ul class="flex flex-col gap-4 text-secondary">
             <li>
               A Rota do Sucesso - checklist das ações que precisa colocar em
               prática
@@ -504,14 +505,17 @@
     </section>
     <!-- Valor -->
     <section
-      class="bg-quaternary flex justify-center min-h-[600px] w-full p-5 md:px-20 gap-5"
+      class="bg-tertiary flex justify-center min-h-[600px] w-full p-5 md:px-20 gap-5"
     >
       <div class="flex md:max-w-screen-xl w-full">
-        <div
-          class="w-1/2 h-full flex flex-col justify-evenly items-center"
-        ></div>
+        <img
+          height="100px"
+          class="w-[400px] object-scale-down"
+          src="./assets/brunafundo.jpg"
+          alt="Foto da Nutricionista Bruna Camilotto, criadora do desafio"
+        />
         <div class="flex flex-col justify-center gap-10 p-10">
-          <h2>Olá! Eu sou a BRUNA</h2>
+          <h1>Olá! Eu sou a Bruna</h1>
           <p>
             Prazer, meu nome é Bruna Avena Camilotto, sou nutricionista há anos
             e minha missão é contribuir na melhora do relacionamento das pessoas
@@ -521,8 +525,11 @@
             alimentar, pois comer é um ato social, cultural, emocional,
             fisiológico e não pode ser resumido a uma dieta ou cardápio.<br /><br />
             Te convido a pensar na nutrição sobre uma outra perspectiva. Vem
-            comigo!
+            comigo!<br /><br />
+            Entre em contato para saber mais:
           </p>
+          <a>brunavenacamilotto@gmail.com</a>
+          <a>instagram</a>
         </div>
       </div>
     </section>
@@ -531,7 +538,7 @@
       class="bg-primary flex justify-center min-h-[250px] w-full p-5 md:px-20 gap-5"
     >
       <div
-        class="flex md:max-w-screen-xl w-full flex-col items-center justify-evenly"
+        class="flex md:max-w-screen-xl w-full flex-col items-center justify-evenly text-secondary"
       >
         <h1>Ainda com dúvidas?</h1>
         <button class="w-fit bg-primary border-[1px] border-secondary">
@@ -539,7 +546,7 @@
         </button>
       </div>
     </section>
-    <!-- Ainda com dúvidas? -->
+    <!-- Fotter -->
     <footer
       class="bg-secondary flex justify-center min-h-[250px] w-full p-5 md:px-20 gap-5"
     >

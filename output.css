@@ -568,28 +568,52 @@ button{
   position: relative;
 }
 
-.top-0{
-  top: 0px;
-}
-
 .left-0{
   left: 0px;
 }
 
-.z-10{
-  z-index: 10;
+.top-0{
+  top: 0px;
+}
+
+.top-10{
+  top: 2.5rem;
+}
+
+.top-\[200px\]{
+  top: 200px;
+}
+
+.top-\[250px\]{
+  top: 250px;
+}
+
+.top-\[230px\]{
+  top: 230px;
+}
+
+.top-\[300px\]{
+  top: 300px;
+}
+
+.top-\[100px\]{
+  top: 100px;
+}
+
+.top-\[150px\]{
+  top: 150px;
 }
 
 .z-20{
   z-index: 20;
 }
 
-.-z-10{
-  z-index: -10;
-}
-
 .m-auto{
   margin: auto;
+}
+
+.-m-10{
+  margin: -2.5rem;
 }
 
 .mx-auto{
@@ -604,6 +628,22 @@ button{
 
 .mt-10{
   margin-top: 2.5rem;
+}
+
+.mt-40{
+  margin-top: 10rem;
+}
+
+.mt-\[200px\]{
+  margin-top: 200px;
+}
+
+.-mr-10{
+  margin-right: -2.5rem;
+}
+
+.-mr-20{
+  margin-right: -5rem;
 }
 
 .flex{
@@ -638,6 +678,22 @@ button{
   height: 100%;
 }
 
+.h-\[200px\]{
+  height: 200px;
+}
+
+.h-\[600px\]{
+  height: 600px;
+}
+
+.h-\[500px\]{
+  height: 500px;
+}
+
+.h-56{
+  height: 14rem;
+}
+
 .min-h-\[250px\]{
   min-height: 250px;
 }
@@ -666,6 +722,10 @@ button{
   width: 50%;
 }
 
+.w-\[100px\]{
+  width: 100px;
+}
+
 .w-\[300px\]{
   width: 300px;
 }
@@ -677,6 +737,50 @@ button{
 
 .w-full{
   width: 100%;
+}
+
+.w-\[200px\]{
+  width: 200px;
+}
+
+.w-\[150px\]{
+  width: 150px;
+}
+
+.w-\[5000px\]{
+  width: 5000px;
+}
+
+.w-\[1000px\]{
+  width: 1000px;
+}
+
+.w-\[800px\]{
+  width: 800px;
+}
+
+.w-\[700px\]{
+  width: 700px;
+}
+
+.w-\[500px\]{
+  width: 500px;
+}
+
+.w-\[600px\]{
+  width: 600px;
+}
+
+.w-\[750px\]{
+  width: 750px;
+}
+
+.w-\[730px\]{
+  width: 730px;
+}
+
+.w-\[400px\]{
+  width: 400px;
 }
 
 .min-w-\[450px\]{
@@ -813,6 +917,21 @@ button{
   background-size: cover;
 }
 
+.object-cover{
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.object-fill{
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.object-scale-down{
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+}
+
 .p-10{
   padding: 2.5rem;
 }
@@ -858,6 +977,10 @@ button{
   line-height: 1.75rem;
 }
 
+.font-bold{
+  font-weight: 700;
+}
+
 .text-primary{
   --tw-text-opacity: 1;
   color: rgb(235 220 227 / var(--tw-text-opacity));
@@ -880,10 +1003,6 @@ button{
 
 .opacity-95{
   opacity: 0.95;
-}
-
-.bg-blend-normal{
-  background-blend-mode: normal;
 }
 
 @media (min-width: 768px){
