@@ -5,34 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./output.css" rel="stylesheet" />
+    <link rel="icon" type="./assets/logo.png" href="./assets/logo.png" />
     <title>23 Transforma</title>
   </head>
   <body>
     <!-- Header -->
-    <header class="w-full fixed top-0 h-[100px] z-20 bg-primary">
-      <div
-        class="md:max-w-screen-xl m-auto flex items-center justify-between h-[100px]"
+    <header class="fixed w-full h-16 z-10 bg-primary px-5 md:px-20">
+      <nav
+        class="justify-between md:max-w-screen-xl m-auto flex items-center h-16 text-secondary"
       >
-        <nav class="flex w-full justify-around items-center">
-          <ul>
-            <li>
-              <a>Motivos</a>
-            </li>
-            <li>
-              <a>Como funciona?</a>
-            </li>
-          </ul>
-          <a>Home</a>
-        </nav>
-        <div class="rounded-full p-4 bg-primary mt-10 w-[300px]">
-          <img src="./assets/logo.png" alt="Logo 23 Transforma" width="120px" />
+        <ul class="hidden lg:flex w-full justify-around items-center h-full">
+          <li>
+            <a>Motivos</a>
+          </li>
+          <li>
+            <a>Como funciona?</a>
+          </li>
+          <li>
+            <a>Home</a>
+          </li>
+        </ul>
+        <div class="relative rounded-full p-4 bg-primary w-24 top-4 shrink-0">
+          <img src="./assets/logo.png" alt="Logo 23 Transforma" />
         </div>
-        <nav class="flex w-full justify-around items-center">
-          <a>Home</a>
-          <a>Motivos</a>
-          <button class="text-lg p-4">Fazer parte</button>
-        </nav>
-      </div>
+        <ul class="hidden lg:flex w-full justify-around items-center">
+          <li>
+            <a>Motivos</a>
+          </li>
+          <li>
+            <a>Como funciona?</a>
+          </li>
+          <li>
+            <button class="text-base p-3">FAZER PARTE</button>
+          </li>
+        </ul>
+        <button class="lg:hidden text-base p-3">FAZER PARTE</button>
+      </nav>
     </header>
     <!-- Home -->
     <main
@@ -42,10 +50,10 @@
         class="absolute w-full h-full bg-primary top-0 left-0 opacity-95"
       ></div>
       <div
-        class="relative flex m-auto md:max-w-screen-xl h-full text-secondary"
+        class="relative flex m-auto md:max-w-screen-xl h-full text-secondary w-full"
       >
-        <div class="h-full flex flex-col">
-          <div class="h-[120px] shrink-0"></div>
+        <div class="h-full flex flex-col mr-10">
+          <div class="h-16 shrink-0"></div>
           <div class="flex flex-col justify-center gap-20 items-start grow">
             <div class="flex flex-col gap-8">
               <h1>Sua oportunidade de transformação!</h1>
@@ -71,10 +79,11 @@
             <button>QUERO MUDAR ISSO!</button>
           </div>
         </div>
-        <div class="hidden lg:flex min-w-fit -mr-20">
+        <div class="hidden lg:flex flex-col shrink-0 w-1/2">
+          <div class="h-16 shrink-0"></div>
           <img
-            class="object-scale-down relative w-[750px] h-full"
-            src="./assets/Group.png"
+            class="object-scale-down w-full h-full"
+            src="./assets/edit.png"
             alt="Foto da Nutricionista Bruna Camilotto, criadora do desafio"
           />
         </div>
@@ -308,7 +317,7 @@
         >
           <div class="flex flex-wrap gap-10 justify-center">
             <div
-              class="bg-tertiary p-4 max-w-[550px] shrink-1 h-56 flex flex-col justify-evenly items-center text-secondary rounded-xl"
+              class="bg-tertiary p-4 max-w-[600px] shrink-1 h-48 flex flex-col justify-evenly items-center text-secondary rounded-xl"
             >
               <h2>Vai ter dieta ou cardápio para seguir?</h2>
               <p>
@@ -319,7 +328,7 @@
               </p>
             </div>
             <div
-              class="bg-tertiary p-4 max-w-[550px] shrink-1 h-56 flex flex-col justify-evenly items-center text-secondary rounded-xl"
+              class="bg-tertiary p-4 max-w-[600px] shrink-1 h-48 flex flex-col justify-evenly items-center text-secondary rounded-xl"
             >
               <h2>Não consigo agir com consistência</h2>
               <p>
@@ -333,7 +342,7 @@
           </div>
           <div class="flex flex-wrap gap-10 justify-center">
             <div
-              class="bg-tertiary p-4 max-w-[550px] shrink-1 h-56 flex flex-col justify-evenly items-center text-secondary rounded-xl"
+              class="bg-tertiary p-4 max-w-[600px] shrink-1 h-48 flex flex-col justify-evenly items-center text-secondary rounded-xl"
             >
               <h2>Sou vegetariana (o), posso participar?</h2>
               <p>
@@ -344,7 +353,7 @@
               </p>
             </div>
             <div
-              class="bg-tertiary p-4 max-w-[550px] shrink-1 h-56 flex flex-col justify-evenly items-center text-secondary rounded-xl"
+              class="bg-tertiary p-4 max-w-[600px] shrink-1 h-48 flex flex-col justify-evenly items-center text-secondary rounded-xl"
             >
               <h2>Não tenho tempo</h2>
               <p>
@@ -357,7 +366,7 @@
           </div>
           <div class="flex flex-wrap gap-10 justify-center">
             <div
-              class="bg-tertiary p-4 max-w-[550px] shrink-1 h-56 flex flex-col justify-evenly items-center text-secondary rounded-xl"
+              class="bg-tertiary p-4 max-w-[600px] shrink-1 h-48 flex flex-col justify-evenly items-center text-secondary rounded-xl"
             >
               <h2>Terei que abrir mão de muitas coisas?</h2>
               <p>
@@ -367,7 +376,7 @@
               </p>
             </div>
             <div
-              class="bg-tertiary p-4 max-w-[550px] shrink-1 h-56 flex flex-col justify-evenly items-center text-secondary rounded-xl"
+              class="bg-tertiary p-4 max-w-[600px] shrink-1 h-48 flex flex-col justify-evenly items-center text-secondary rounded-xl"
             >
               <h2>Minha vida é uma bagunça!</h2>
               <p>
