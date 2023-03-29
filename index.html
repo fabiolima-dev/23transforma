@@ -25,7 +25,9 @@
             <a>Home</a>
           </li>
         </ul>
-        <div class="relative rounded-full p-4 bg-primary w-24 top-4 shrink-0">
+        <div
+          class="w-16 p-1 sm:w-24 sm:p-4 relative rounded-full bg-primary sm:top-4 shrink-0"
+        >
           <img src="./assets/logo.png" alt="Logo 23 Transforma" />
         </div>
         <ul class="hidden lg:flex w-full justify-around items-center">
@@ -43,49 +45,49 @@
       </nav>
     </header>
     <!-- Home -->
-    <main
-      class="h-full min-h-screen w-full bg-[url('/assets/home-fundo.jpg')] bg-cover px-5 md:px-20"
-    >
+    <main class="w-full bg-[url('/assets/bg.jpg')] bg-cover px-5 md:px-20">
       <div
-        class="absolute w-full h-full bg-primary top-0 left-0 opacity-95"
-      ></div>
-      <div
-        class="relative flex m-auto md:max-w-screen-xl h-full text-secondary w-full"
+        class="min-h-screen flex flex-col h-full m-auto md:max-w-screen-xl text-secondary w-full"
       >
-        <div class="h-full flex flex-col mr-10">
-          <div class="h-16 shrink-0"></div>
-          <div class="flex flex-col justify-center gap-20 items-start grow">
-            <div class="flex flex-col gap-8">
-              <h1>Sua oportunidade de transformação!</h1>
-              <h2>
-                23 dias para transformar de vez a sua alimentação, sua relação
-                com a comida, hábitos e estilo de vida.
-              </h2>
+        <div class="h-16 shrink-0"></div>
+        <div class="flex grow">
+          <div class="flex flex-col mr-10">
+            <div
+              class="my-4 flex flex-col justify-center gap-10 sm:gap-20 items-start grow"
+            >
+              <div class="flex flex-col gap-8">
+                <h1>Sua oportunidade de transformação!</h1>
+                <h2>
+                  23 dias para transformar de vez a sua alimentação, sua relação
+                  com a comida, hábitos e estilo de vida.
+                </h2>
+              </div>
+              <p>
+                Não é mais um grupo de emagrecimento! É o passo-a-passo para
+                você
+                <b>
+                  conquistar de vez a sua autonomia alimentar, se libertar de
+                  crenças, saboratores e hábitos
+                </b>
+                que te impedem de conquistar seus objetivos (perder peso,
+                melhorar a alimentação, mudar hábitos, seguir uma rotina
+                equilibrada) e ter a qualidade de vida que você busca e
+                merece.<br /><br />Afinal, é difícil viver bem quando não se
+                alimenta bem, não dorme bem, não se exercita, o intestino não
+                funciona direito, não consegue lidar com o estresse, não se
+                planeja e nem executa o que é necessário, não dá conta de fazer
+                nem o básico.. Não é mesmo?
+              </p>
+              <button>QUERO MUDAR ISSO!</button>
             </div>
-            <p>
-              Não é mais um grupo de emagrecimento! É o passo-a-passo para você
-              <b>
-                conquistar de vez a sua autonomia alimentar, se libertar de
-                crenças, saboratores e hábitos
-              </b>
-              que te impedem de conquistar seus objetivos (perder peso, melhorar
-              a alimentação, mudar hábitos, seguir uma rotina equilibrada) e ter
-              a qualidade de vida que você busca e merece.<br /><br />Afinal, é
-              difícil viver bem quando não se alimenta bem, não dorme bem, não
-              se exercita, o intestino não funciona direito, não consegue lidar
-              com o estresse, não se planeja e nem executa o que é necessário,
-              não dá conta de fazer nem o básico.. Não é mesmo?
-            </p>
-            <button>QUERO MUDAR ISSO!</button>
           </div>
-        </div>
-        <div class="hidden lg:flex flex-col shrink-0 w-1/2">
-          <div class="h-16 shrink-0"></div>
-          <img
-            class="object-scale-down w-full h-full"
-            src="./assets/edit.png"
-            alt="Foto da Nutricionista Bruna Camilotto, criadora do desafio"
-          />
+          <div class="hidden lg:block shrink-0 w-1/2">
+            <img
+              class="object-scale-down w-full h-full"
+              src="./assets/edit.png"
+              alt="Foto da Nutricionista Bruna Camilotto, criadora do desafio"
+            />
+          </div>
         </div>
       </div>
     </main>
@@ -93,57 +95,67 @@
     <section
       class="text-secondary flex justify-center min-h-[600px] w-full p-5 md:px-20 gap-5"
     >
-      <div class="flex flex-col justify-evenly md:max-w-screen-xl w-full">
+      <div
+        class="flex flex-col gap-10 justify-evenly md:max-w-screen-xl w-full"
+      >
         <h1 class="text-center">Motivos para estar no Transforma 23:</h1>
         <div
-          class="flex flex-wrap justify-between items-center gap-10 w-full lg:flex-nowrap"
+          class="flex flex-wrap justify-center items-center gap-10 lg:flex-nowrap w-full"
         >
           <div
-            class="bg-primary rounded-xl p-4 py-6 max-w-[250px] shrink-1 h-80 flex flex-col justify-start items-center gap-8"
+            class="flex gap-10 flex-wrap justify-center max-w-max md:flex-nowrap"
           >
-            <img
-              src="./assets/icone-comunicação.png"
-              alt="Ícone de grupo trocando experiências"
-            />
-            <p class="text-center flex items-center h-full">
-              Estar em um grupo motivado, engajado e comprometido; troca de
-              experiências e incentivo
-            </p>
+            <div
+              class="bg-primary rounded-xl p-4 py-6 w-[250px] shrink-1 h-80 flex flex-col justify-start items-center gap-8"
+            >
+              <img
+                src="./assets/icone-comunicação.png"
+                alt="Ícone de grupo trocando experiências"
+              />
+              <p class="text-center flex items-center h-full">
+                Estar em um grupo motivado, engajado e comprometido; troca de
+                experiências e incentivo
+              </p>
+            </div>
+            <div
+              class="bg-primary rounded-xl p-4 py-6 w-[250px] shrink-1 h-80 flex flex-col justify-start items-center gap-8"
+            >
+              <img
+                src="./assets/icone-acompanhamento-nutricionista.png"
+                alt="Ícone de grupo trocando experiências"
+              />
+              <p class="text-center flex items-center h-full">
+                Acompanhamento diário de nutricionista por 23 dias
+              </p>
+            </div>
           </div>
           <div
-            class="bg-primary rounded-xl p-4 py-6 max-w-[250px] shrink-1 h-80 flex flex-col justify-start items-center gap-8"
+            class="flex gap-10 flex-wrap justify-center max-w-max md:flex-nowrap"
           >
-            <img
-              src="./assets/icone-acompanhamento-nutricionista.png"
-              alt="Ícone de grupo trocando experiências"
-            />
-            <p class="text-center flex items-center h-full">
-              Acompanhamento diário de nutricionista por 23 dias
-            </p>
-          </div>
-          <div
-            class="bg-primary rounded-xl p-4 py-6 max-w-[250px] shrink-1 h-80 flex flex-col justify-start items-center gap-8"
-          >
-            <img
-              src="./assets/icone-auto-estima.png"
-              alt="Ícone de grupo trocando experiências"
-            />
-            <p class="text-center flex items-center h-full">
-              Ajuda para resgatar a sua autoestima e autoconfiança, gerar
-              autoconhecimento
-            </p>
-          </div>
-          <div
-            class="bg-primary rounded-xl p-4 py-6 max-w-[250px] shrink-1 h-80 flex flex-col justify-start items-center gap-8"
-          >
-            <img
-              src="./assets/icone-materiais-e-ferramentas.png"
-              alt="Ícone de grupo trocando experiências"
-            />
-            <p class="text-center flex items-center h-full">
-              Materiais e ferramentas, para facilitar a rotina e alimentação,
-              auxiliar na adesão de novos hábitos
-            </p>
+            <div
+              class="bg-primary rounded-xl p-4 py-6 w-[250px] shrink-1 h-80 flex flex-col justify-start items-center gap-8"
+            >
+              <img
+                src="./assets/icone-auto-estima.png"
+                alt="Ícone de grupo trocando experiências"
+              />
+              <p class="text-center flex items-center h-full">
+                Ajuda para resgatar a sua autoestima e autoconfiança, gerar
+                autoconhecimento
+              </p>
+            </div>
+            <div
+              class="bg-primary rounded-xl p-4 py-6 w-[250px] shrink-1 h-80 flex flex-col justify-start items-center gap-8"
+            >
+              <img
+                src="./assets/icone-materiais-e-ferramentas.png"
+                alt="Ícone de grupo trocando experiências"
+              />
+              <p class="text-center flex items-center h-full">
+                Materiais e ferramentas, para facilitar a rotina e alimentação,
+                auxiliar na adesão de novos hábitos
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -513,7 +525,7 @@
       </div>
     </section>
     <!-- Valor -->
-    <section
+    <!-- <section
       class="bg-tertiary flex justify-center min-h-[600px] w-full p-5 md:px-20 gap-5"
     >
       <div class="flex md:max-w-screen-xl w-full">
@@ -541,7 +553,7 @@
           <a>instagram</a>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- Ainda com dúvidas? -->
     <section
       class="bg-primary flex justify-center min-h-[250px] w-full p-5 md:px-20 gap-5"

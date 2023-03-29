@@ -6,7 +6,7 @@
 @layer base {
   html,
   body {
-    @apply h-full;
+    @apply min-h-full;
   }
 
   h1,
@@ -16,10 +16,10 @@
   }
 
   h1 {
-    @apply text-5xl;
+    @apply text-3xl sm:text-5xl;
   }
   h2 {
-    @apply text-2xl;
+    @apply text-xl sm:text-2xl;
   }
   h3 {
     @apply text-lg;
