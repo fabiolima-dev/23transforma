@@ -99,9 +99,7 @@
         class="flex flex-col gap-10 justify-evenly md:max-w-screen-xl w-full"
       >
         <h1 class="text-center">Motivos para estar no Transforma 23:</h1>
-        <div
-          class="flex flex-wrap justify-center items-center gap-10 lg:flex-nowrap w-full"
-        >
+        <div class="flex flex-wrap justify-center items-center gap-10 w-full">
           <div
             class="flex gap-10 flex-wrap justify-center max-w-max md:flex-nowrap"
           >
@@ -164,12 +162,14 @@
     <section
       class="bg-secondary flex justify-center min-h-[700px] w-full p-5 md:px-20 gap-5"
     >
-      <div class="flex flex-col justify-around md:max-w-screen-xl w-full">
-        <h1 class="text-tertiary text-center my-10">
+      <div
+        class="flex flex-col gap-10 justify-evenly items-center md:max-w-screen-xl w-full"
+      >
+        <h1 class="text-tertiary text-center">
           Como funciona o Transforma 23?
         </h1>
         <div
-          class="flex flex-wrap justify-between items-center gap-10 text-primary w-full lg:flex-nowrap text-center"
+          class="flex flex-col justify-between items-center gap-10 text-primary w-full lg:flex-row text-center"
         >
           <div
             class="p-4 max-w-[300px] shrink-1 h-80 flex flex-col justify-between items-center"
@@ -211,7 +211,7 @@
             </p>
           </div>
         </div>
-        <button class="bg-quaternary text-secondary w-fit m-auto">
+        <button class="bg-quaternary text-secondary w-fit">
           QUERO FAZER PARTE!
         </button>
       </div>
@@ -220,14 +220,16 @@
     <section
       class="bg-primary flex justify-center min-h-[700px] w-full p-5 md:px-20 gap-5"
     >
-      <div class="flex flex-col justify-evenly md:max-w-screen-xl w-full">
+      <div
+        class="flex gap-10 flex-col justify-evenly md:max-w-screen-xl w-full"
+      >
         <h1 class="text-secondary text-center">Para quem é?</h1>
         <div
           class="flex flex-col justify-between items-center gap-10 text-primary w-full text-center"
         >
           <div class="flex flex-wrap gap-10 justify-center">
             <div
-              class="bg-tertiary p-4 max-w-[500px] shrink-1 h-48 flex flex-col justify-evenly items-center text-secondary rounded-xl"
+              class="bg-tertiary p-4 max-w-[500px] shrink-1 min-h-[192px] flex flex-col justify-evenly items-center text-secondary rounded-xl"
             >
               <h2>Quem quer direcionamento</h2>
               <p>
@@ -237,7 +239,7 @@
               </p>
             </div>
             <div
-              class="bg-tertiary p-4 max-w-[500px] shrink-1 h-48 flex flex-col justify-evenly items-center text-secondary rounded-xl"
+              class="bg-tertiary p-4 max-w-[500px] shrink-1 min-h-[192px] flex flex-col justify-evenly items-center text-secondary rounded-xl"
             >
               <h2>Quem quer motivação</h2>
               <p>
@@ -248,7 +250,7 @@
           </div>
           <div class="flex flex-wrap gap-10 justify-center">
             <div
-              class="bg-tertiary p-4 max-w-[500px] shrink-1 h-48 flex flex-col justify-evenly items-center text-secondary rounded-xl"
+              class="bg-tertiary p-4 max-w-[500px] shrink-1 min-h-[192px] flex flex-col justify-evenly items-center text-secondary rounded-xl"
             >
               <h2>Quem quer organização</h2>
               <p>
@@ -257,7 +259,7 @@
               </p>
             </div>
             <div
-              class="bg-tertiary p-4 max-w-[500px] shrink-1 h-48 flex flex-col justify-evenly items-center text-secondary rounded-xl"
+              class="bg-tertiary p-4 max-w-[500px] shrink-1 min-h-[192px] flex flex-col justify-evenly items-center text-secondary rounded-xl"
             >
               <h2>Quem quer saúde</h2>
               <p>
@@ -274,43 +276,49 @@
     <section
       class="bg-tertiary flex justify-center min-h-[400px] w-full p-5 md:px-20 gap-5"
     >
-      <div class="flex flex-col justify-evenly md:max-w-screen-xl w-full">
+      <div
+        class="flex flex-col gap-10 justify-evenly items-center md:max-w-screen-xl w-full"
+      >
         <h1 class="text-secondary text-center">Para quem não é?</h1>
         <div
           class="flex flex-col justify-between items-center gap-10 text-primary w-full text-center"
         >
           <div class="flex flex-wrap gap-10 justify-center">
-            <div
-              class="bg-secondary p-4 max-w-[250px] shrink-1 h-48 flex flex-col justify-evenly items-center text-tertiary rounded-xl"
-            >
-              <p>
-                Quem prefere ficar na zona de conforto e está satisfeito com os
-                resultados e qualidade de vida que tem
-              </p>
+            <div class="flex gap-10 flex-wrap justify-center">
+              <div
+                class="bg-secondary p-4 max-w-[250px] shrink-1 h-48 flex flex-col justify-evenly items-center text-tertiary rounded-xl"
+              >
+                <p>
+                  Quem prefere ficar na zona de conforto e está satisfeito com
+                  os resultados e qualidade de vida que tem
+                </p>
+              </div>
+              <div
+                class="bg-secondary p-4 max-w-[250px] shrink-1 h-48 flex flex-col justify-evenly items-center text-tertiary rounded-xl"
+              >
+                <p>
+                  Quem quer resultado rápido, sem esforço e não está disposto a
+                  mudar hábitos e ser consistente nas ações
+                </p>
+              </div>
             </div>
-            <div
-              class="bg-secondary p-4 max-w-[250px] shrink-1 h-48 flex flex-col justify-evenly items-center text-tertiary rounded-xl"
-            >
-              <p>
-                Quem quer resultado rápido, sem esforço e não está disposto a
-                mudar hábitos e ser consistente nas ações
-              </p>
-            </div>
-            <div
-              class="bg-secondary p-4 max-w-[250px] shrink-1 h-48 flex flex-col justify-evenly items-center text-tertiary rounded-xl"
-            >
-              <p>
-                Quem já tem a rotina organizada e não precisa ou não quer
-                modificar nenhum aspecto da saúde
-              </p>
-            </div>
-            <div
-              class="bg-secondary p-4 max-w-[250px] shrink-1 h-48 flex flex-col justify-evenly items-center text-tertiary rounded-xl"
-            >
-              <p>
-                Quem procura uma dieta milagrosa, alimentação restritiva e só se
-                preocupa com calorias dos alimentos
-              </p>
+            <div class="flex gap-10 flex-wrap justify-center">
+              <div
+                class="bg-secondary p-4 max-w-[250px] shrink-1 h-48 flex flex-col justify-evenly items-center text-tertiary rounded-xl"
+              >
+                <p>
+                  Quem já tem a rotina organizada e não precisa ou não quer
+                  modificar nenhum aspecto da saúde
+                </p>
+              </div>
+              <div
+                class="bg-secondary p-4 max-w-[250px] shrink-1 h-48 flex flex-col justify-evenly items-center text-tertiary rounded-xl"
+              >
+                <p>
+                  Quem procura uma dieta milagrosa, alimentação restritiva e só
+                  se preocupa com calorias dos alimentos
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -318,7 +326,7 @@
     </section>
     <!-- Ainda está com dúvidas? -->
     <section
-      class="bg-primary flex justify-center min-h-screen w-full p-5 md:px-20 gap-5"
+      class="bg-[url('/assets/bg.jpg')] bg-cover flex justify-center min-h-screen w-full p-5 md:px-20 gap-5"
     >
       <div
         class="flex flex-col justify-evenly md:max-w-screen-xl w-full gap-10"
@@ -329,7 +337,7 @@
         >
           <div class="flex flex-wrap gap-10 justify-center">
             <div
-              class="bg-tertiary p-4 max-w-[600px] shrink-1 h-48 flex flex-col justify-evenly items-center text-secondary rounded-xl"
+              class="bg-tertiary p-4 max-w-[600px] shrink-1 min-h-[192px] flex flex-col justify-evenly items-center text-secondary rounded-xl"
             >
               <h2>Vai ter dieta ou cardápio para seguir?</h2>
               <p>
@@ -340,7 +348,7 @@
               </p>
             </div>
             <div
-              class="bg-tertiary p-4 max-w-[600px] shrink-1 h-48 flex flex-col justify-evenly items-center text-secondary rounded-xl"
+              class="bg-tertiary p-4 max-w-[600px] shrink-1 min-h-[192px] flex flex-col justify-evenly items-center text-secondary rounded-xl"
             >
               <h2>Não consigo agir com consistência</h2>
               <p>
@@ -354,7 +362,7 @@
           </div>
           <div class="flex flex-wrap gap-10 justify-center">
             <div
-              class="bg-tertiary p-4 max-w-[600px] shrink-1 h-48 flex flex-col justify-evenly items-center text-secondary rounded-xl"
+              class="bg-tertiary p-4 max-w-[600px] shrink-1 min-h-[192px] flex flex-col justify-evenly items-center text-secondary rounded-xl"
             >
               <h2>Sou vegetariana (o), posso participar?</h2>
               <p>
@@ -365,7 +373,7 @@
               </p>
             </div>
             <div
-              class="bg-tertiary p-4 max-w-[600px] shrink-1 h-48 flex flex-col justify-evenly items-center text-secondary rounded-xl"
+              class="bg-tertiary p-4 max-w-[600px] shrink-1 min-h-[192px] flex flex-col justify-evenly items-center text-secondary rounded-xl"
             >
               <h2>Não tenho tempo</h2>
               <p>
@@ -378,7 +386,7 @@
           </div>
           <div class="flex flex-wrap gap-10 justify-center">
             <div
-              class="bg-tertiary p-4 max-w-[600px] shrink-1 h-48 flex flex-col justify-evenly items-center text-secondary rounded-xl"
+              class="bg-tertiary p-4 max-w-[600px] shrink-1 min-h-[192px] flex flex-col justify-evenly items-center text-secondary rounded-xl"
             >
               <h2>Terei que abrir mão de muitas coisas?</h2>
               <p>
@@ -388,7 +396,7 @@
               </p>
             </div>
             <div
-              class="bg-tertiary p-4 max-w-[600px] shrink-1 h-48 flex flex-col justify-evenly items-center text-secondary rounded-xl"
+              class="bg-tertiary p-4 max-w-[600px] shrink-1 min-h-[192px] flex flex-col justify-evenly items-center text-secondary rounded-xl"
             >
               <h2>Minha vida é uma bagunça!</h2>
               <p>
@@ -408,7 +416,9 @@
     <section
       class="bg-tertiary flex justify-center min-h-[700px] w-full p-5 md:px-20 gap-5"
     >
-      <div class="flex flex-col justify-evenly md:max-w-screen-xl w-full">
+      <div
+        class="flex flex-col gap-10 justify-evenly md:max-w-screen-xl w-full"
+      >
         <h1 class="text-secondary text-center">
           Esses são alguns dos resultados esperados:
         </h1>
@@ -417,52 +427,52 @@
         >
           <div class="flex flex-wrap gap-10 justify-center">
             <div
-              class="p-4 max-w-[550px] shrink-1 h-48 flex flex-col justify-evenly text-secondary"
+              class="p-4 max-w-[550px] shrink-1 min-h-[192px] gap-5 flex flex-col justify-evenly text-secondary"
             >
               <p>
                 Ter clareza de onde está hoje, de onde quer ir e das ações
                 necessárias para isso (aprender a o caminho e passo-a-passo
                 necessários para chegar lá)
               </p>
-              <h2 class="bg-secondary text-quaternary w-fit px-2">
+              <h2 class="bg-secondary max-w-fit text-quaternary w-fit px-2">
                 AGIR COM PROPÓSITO
               </h2>
             </div>
             <div
-              class="p-4 max-w-[550px] shrink-1 h-48 flex flex-col justify-evenly text-secondary"
+              class="p-4 max-w-[550px] shrink-1 min-h-[192px] gap-5 flex flex-col justify-evenly text-secondary"
             >
               <p>
                 Se tornar mais produtiva (o), organizada (o), planejando seus
                 objetivos, metas e rotina, e principalmente, cumprindo os
                 combinados
               </p>
-              <h2 class="bg-secondary text-quaternary w-fit px-2">
+              <h2 class="bg-secondary max-w-fit text-quaternary w-fit px-2">
                 SE TORNAR EXECUTOR (A)
               </h2>
             </div>
           </div>
           <div class="flex flex-wrap gap-10 justify-center">
             <div
-              class="p-4 max-w-[550px] shrink-1 h-48 flex flex-col justify-evenly text-secondary"
+              class="p-4 max-w-[550px] shrink-1 min-h-[192px] gap-5 flex flex-col justify-evenly text-secondary"
             >
               <p>
                 Aprender a fazer suas escolhas alimentares e não ser mais refém
                 de dietas, do terrorismo nutricional ou de informações
                 controvérsas sobre os alimentos
               </p>
-              <h2 class="bg-secondary text-quaternary w-fit px-2">
+              <h2 class="bg-secondary max-w-fit text-quaternary w-fit px-2">
                 CONQUISTAR AUTONOMIA ALIMENTAR
               </h2>
             </div>
             <div
-              class="p-4 max-w-[550px] shrink-1 h-48 flex flex-col justify-evenly text-secondary"
+              class="p-4 max-w-[550px] shrink-1 min-h-[192px] gap-5 flex flex-col justify-evenly text-secondary"
             >
               <p>
                 Seguindo as atividades propostas e aplicando de forma constante,
                 o resultado virá (iremos conversar sobre metas
                 atingíveis/realistas durante o programa)
               </p>
-              <h2 class="bg-secondary text-quaternary w-fit px-2">
+              <h2 class="bg-secondary max-w-fit text-quaternary w-fit px-2">
                 ATINGIR SEUS RESULTADOS
               </h2>
             </div>
@@ -474,9 +484,12 @@
     <section
       class="bg-secondary flex justify-center min-h-[300px] w-full p-5 md:px-20 gap-5"
     >
-      <div class="flex md:max-w-screen-xl w-full">
-        <div class="w-1/2 bg-primary h-full"></div>
-        <div class="flex flex-col justify-center gap-10 p-10">
+      <div class="flex md:max-w-screen-xl w-full flex-wrap md:flex-nowrap">
+        <img
+          src="assets/bruna-xicara.jpg"
+          class="w-full md:w-2/5 h-[300px] md:h-[450px] object-cover shrink-0"
+        />
+        <div class="flex flex-col justify-center gap-10 p-10 max-w-3xl">
           <h1 class="bg-primary w-fit px-2 text-secondary">
             E ainda tem bônus!
           </h1>
@@ -491,22 +504,26 @@
     <section
       class="bg-primary flex justify-center min-h-[600px] w-full p-5 md:px-20 gap-5"
     >
-      <div class="flex md:max-w-screen-xl w-full">
-        <div class="w-1/2 h-full flex flex-col justify-evenly items-center">
+      <div
+        class="flex justify-center gap-10 flex-wrap md:flex-nowrap md:max-w-screen-xl w-full"
+      >
+        <div
+          class="md:w-1/2 md:h-full flex flex-col justify-evenly items-center"
+        >
           <div
-            class="h-[350px] min-w-[450px] flex flex-col items-center justify-evenly bg-quaternary rounded-xl text-secondary"
+            class="gap-10 text-center p-4 md:p-8 flex flex-col items-center justify-evenly bg-quaternary rounded-xl text-secondary"
           >
             <div class="flex flex-col items-center gap-4">
               <h2>Menos que 1 cafézinho por dia</h2>
               <h3>Apenas</h3>
             </div>
-            <h1>R$ 37,00</h1>
+            <h1 class="min-w-max">R$ 37,00</h1>
             <button class="bg-secondary text-primary">
               QUERO ME INSCREVER
             </button>
           </div>
         </div>
-        <div class="flex flex-col justify-center gap-10 p-10">
+        <div class="flex flex-col justify-center gap-10 shrink">
           <h2>Durante o programa você vai receber:</h2>
           <ul class="flex flex-col gap-4 text-secondary">
             <li>
@@ -524,17 +541,17 @@
         </div>
       </div>
     </section>
-    <!-- Valor -->
-    <!-- <section
+    <!-- Apresentação -->
+    <section
       class="bg-tertiary flex justify-center min-h-[600px] w-full p-5 md:px-20 gap-5"
     >
       <div class="flex md:max-w-screen-xl w-full">
-        <img
+        <!-- <img
           height="100px"
           class="w-[400px] object-scale-down"
           src="./assets/brunafundo.jpg"
           alt="Foto da Nutricionista Bruna Camilotto, criadora do desafio"
-        />
+        /> -->
         <div class="flex flex-col justify-center gap-10 p-10">
           <h1>Olá! Eu sou a Bruna</h1>
           <p>
@@ -553,7 +570,7 @@
           <a>instagram</a>
         </div>
       </div>
-    </section> -->
+    </section>
     <!-- Ainda com dúvidas? -->
     <section
       class="bg-primary flex justify-center min-h-[250px] w-full p-5 md:px-20 gap-5"
@@ -572,7 +589,12 @@
       class="bg-secondary flex justify-center min-h-[250px] w-full p-5 md:px-20 gap-5"
     >
       <div class="flex md:max-w-screen-xl w-full items-center justify-between">
-        <img src="assets/logo.png" alt="Logo 23 Transforma" width="200px" />
+        <img
+          src="assets/logo.png"
+          alt="Logo 23 Transforma"
+          class="w-24 md:w-32"
+          width="200px"
+        />
         <p class="text-primary text-right">
           Copyright © 2023<br />
           Todos os direitos reservados.
