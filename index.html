@@ -1,25 +1,28 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ao escrever uma meta tag, use entre 140 e 160 caracteres para que o Google possa exibir toda a sua mensagem. Não se esqueça de incluir sua palavra-chave!"
+    />
     <link href="./output.css" rel="stylesheet" />
     <link rel="icon" type="./assets/logo.png" href="./assets/logo.png" />
     <title>23 Transforma</title>
   </head>
   <body>
-    <!-- Header -->
-    <header class="fixed w-full h-16 z-10 bg-primary px-5 md:px-20">
+    <header class="drop-shadow fixed w-full h-16 z-10 bg-primary px-5 md:px-20">
       <nav
-        class="justify-between md:max-w-screen-xl m-auto flex items-center h-16 text-secondary"
+        class="justify-between md:max-w-screen-xl m-auto flex items-center h-full text-secondary"
       >
         <ul class="hidden lg:flex w-full justify-around items-center h-full">
           <li>
-            <a>Motivos</a>
+            <a href="#home">Motivos</a>
           </li>
           <li>
-            <a>Como funciona?</a>
+            <a href="#motivos">Como funciona?</a>
           </li>
           <li>
             <a>Home</a>
@@ -38,22 +41,33 @@
             <a>Como funciona?</a>
           </li>
           <li>
-            <button class="text-base p-3">FAZER PARTE</button>
+            <a
+              href=""
+              class="bg-quaternary font-bold text-secondary rounded-xl text-base p-3"
+              >FAZER PARTE</a
+            >
           </li>
         </ul>
-        <button class="lg:hidden text-base p-3">FAZER PARTE</button>
+        <a
+          href=""
+          class="lg:hidden bg-quaternary font-bold text-secondary rounded-xl text-base p-3"
+        >
+          FAZER PARTE
+        </a>
       </nav>
     </header>
-    <!-- Home -->
-    <main class="w-full bg-[url('/assets/bg.jpg')] bg-cover px-5 md:px-20">
+    <main
+      id="home"
+      class="w-full bg-[url('/assets/bg.jpg')] bg-cover px-5 md:px-20"
+    >
       <div
         class="min-h-screen flex flex-col h-full m-auto md:max-w-screen-xl text-secondary w-full"
       >
         <div class="h-16 shrink-0"></div>
         <div class="flex grow">
-          <div class="flex flex-col mr-10">
+          <div class="flex flex-col">
             <div
-              class="my-4 flex flex-col justify-center gap-10 sm:gap-20 items-start grow"
+              class="my-4 flex flex-col justify-center gap-10 sm:gap-20 items-center lg:items-start grow text-center lg:text-left"
             >
               <div class="flex flex-col gap-8">
                 <h1>Sua oportunidade de transformação!</h1>
@@ -65,10 +79,10 @@
               <p>
                 Não é mais um grupo de emagrecimento! É o passo-a-passo para
                 você
-                <b>
+                <strong>
                   conquistar de vez a sua autonomia alimentar, se libertar de
                   crenças, saboratores e hábitos
-                </b>
+                </strong>
                 que te impedem de conquistar seus objetivos (perder peso,
                 melhorar a alimentação, mudar hábitos, seguir uma rotina
                 equilibrada) e ter a qualidade de vida que você busca e
@@ -78,21 +92,26 @@
                 planeja e nem executa o que é necessário, não dá conta de fazer
                 nem o básico.. Não é mesmo?
               </p>
-              <button>QUERO MUDAR ISSO!</button>
+              <a
+                href=""
+                class="bg-quaternary font-bold text-secondary rounded-xl text-xl py-2 px-4 sm:text-2xl sm:py-4 sm:px-8"
+                >QUERO MUDAR ISSO!</a
+              >
             </div>
           </div>
-          <div class="hidden lg:block shrink-0 w-1/2">
+          <div class="hidden lg:flex justify-center items-end shrink-0 w-1/2">
             <img
-              class="object-scale-down w-full h-full"
-              src="./assets/edit.png"
+              width="400px"
+              class="object-cover h-[800px] object-top"
+              src="./assets/bruna-empé.png"
               alt="Foto da Nutricionista Bruna Camilotto, criadora do desafio"
             />
           </div>
         </div>
       </div>
     </main>
-    <!-- Motivos -->
     <section
+      id="motivos"
       class="text-secondary flex justify-center min-h-[600px] w-full p-5 md:px-20 gap-5"
     >
       <div
@@ -158,7 +177,6 @@
         </div>
       </div>
     </section>
-    <!-- Como funciona -->
     <section
       class="bg-secondary flex justify-center min-h-[700px] w-full p-5 md:px-20 gap-5"
     >
@@ -211,12 +229,14 @@
             </p>
           </div>
         </div>
-        <button class="bg-quaternary text-secondary w-fit">
+        <a
+          href=""
+          class="bg-quaternary font-bold text-secondary rounded-xl text-xl py-2 px-4 sm:text-2xl sm:py-4 sm:px-8;"
+        >
           QUERO FAZER PARTE!
-        </button>
+        </a>
       </div>
     </section>
-    <!-- Para quem é? -->
     <section
       class="bg-primary flex justify-center min-h-[700px] w-full p-5 md:px-20 gap-5"
     >
@@ -272,7 +292,6 @@
         </div>
       </div>
     </section>
-    <!-- Para quem não é? -->
     <section
       class="bg-tertiary flex justify-center min-h-[400px] w-full p-5 md:px-20 gap-5"
     >
@@ -324,7 +343,6 @@
         </div>
       </div>
     </section>
-    <!-- Ainda está com dúvidas? -->
     <section
       class="bg-[url('/assets/bg.jpg')] bg-cover flex justify-center min-h-screen w-full p-5 md:px-20 gap-5"
     >
@@ -407,12 +425,14 @@
             </div>
           </div>
         </div>
-        <button class="bg-quaternary text-secondary w-fit mx-auto">
+        <a
+          href=""
+          class="w-fit m-auto bg-quaternary font-bold text-secondary rounded-xl text-xl py-2 px-4 sm:text-2xl sm:py-4 sm:px-8;"
+        >
           VOU INVESTIR EM MIM!
-        </button>
+        </a>
       </div>
     </section>
-    <!-- Resultados Esperados -->
     <section
       class="bg-tertiary flex justify-center min-h-[700px] w-full p-5 md:px-20 gap-5"
     >
@@ -480,7 +500,6 @@
         </div>
       </div>
     </section>
-    <!-- Bônus -->
     <section
       class="bg-secondary flex justify-center min-h-[300px] w-full p-5 md:px-20 gap-5"
     >
@@ -500,7 +519,6 @@
         </div>
       </div>
     </section>
-    <!-- Valor -->
     <section
       class="bg-primary flex justify-center min-h-[600px] w-full p-5 md:px-20 gap-5"
     >
@@ -511,21 +529,24 @@
           class="md:w-1/2 md:h-full flex flex-col justify-evenly items-center"
         >
           <div
-            class="gap-10 text-center p-4 md:p-8 flex flex-col items-center justify-evenly bg-quaternary rounded-xl text-secondary"
+            class="min-w-[300px] gap-10 text-center p-4 md:p-8 flex flex-col items-center justify-evenly bg-quaternary rounded-xl text-secondary"
           >
+            <h2>Menos que 1 cafézinho por dia</h2>
             <div class="flex flex-col items-center gap-4">
-              <h2>Menos que 1 cafézinho por dia</h2>
               <h3>Apenas</h3>
+              <h1 class="min-w-max text-5xl">R$ 37,00</h1>
             </div>
-            <h1 class="min-w-max">R$ 37,00</h1>
-            <button class="bg-secondary text-primary">
+            <a
+              href=""
+              class="bg-secondary font-bold text-tertiary rounded-xl text-xl py-2 px-4 sm:text-2xl sm:py-4 sm:px-8"
+            >
               QUERO ME INSCREVER
-            </button>
+            </a>
           </div>
         </div>
         <div class="flex flex-col justify-center gap-10 shrink">
           <h2>Durante o programa você vai receber:</h2>
-          <ul class="flex flex-col gap-4 text-secondary">
+          <ul class="flex flex-col gap-4 text-secondary list-disc list-inside">
             <li>
               A Rota do Sucesso - checklist das ações que precisa colocar em
               prática
@@ -541,18 +562,18 @@
         </div>
       </div>
     </section>
-    <!-- Apresentação -->
     <section
       class="bg-tertiary flex justify-center min-h-[600px] w-full p-5 md:px-20 gap-5"
     >
-      <div class="flex md:max-w-screen-xl w-full">
-        <!-- <img
-          height="100px"
-          class="w-[400px] object-scale-down"
-          src="./assets/brunafundo.jpg"
+      <div
+        class="flex gap-10 items-center lg:max-w-screen-xl w-full lg:flex-nowrap flex-wrap"
+      >
+        <img
+          class="object-cover w-full lg:w-1/2 shrink-0 h-[400px] px-20 md:px-0 md:h-[600px]"
+          src="assets/bruna-xicara.jpg"
           alt="Foto da Nutricionista Bruna Camilotto, criadora do desafio"
-        /> -->
-        <div class="flex flex-col justify-center gap-10 p-10">
+        />
+        <div class="flex flex-col justify-center gap-10">
           <h1>Olá! Eu sou a Bruna</h1>
           <p>
             Prazer, meu nome é Bruna Avena Camilotto, sou nutricionista há anos
@@ -571,7 +592,6 @@
         </div>
       </div>
     </section>
-    <!-- Ainda com dúvidas? -->
     <section
       class="bg-primary flex justify-center min-h-[250px] w-full p-5 md:px-20 gap-5"
     >
@@ -579,12 +599,14 @@
         class="flex md:max-w-screen-xl w-full flex-col items-center justify-evenly text-secondary"
       >
         <h1>Ainda com dúvidas?</h1>
-        <button class="w-fit bg-primary border-[1px] border-secondary">
+        <a
+          href=""
+          class="w-fit bg-primary border-[1px] border-secondary rounded-xl text-xl py-2 px-4 sm:text-2xl sm:py-4 sm:px-8"
+        >
           CHAMA NO WHATSAPP! ☺️
-        </button>
+        </a>
       </div>
     </section>
-    <!-- Fotter -->
     <footer
       class="bg-secondary flex justify-center min-h-[250px] w-full p-5 md:px-20 gap-5"
     >

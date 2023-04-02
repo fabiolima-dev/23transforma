@@ -24,7 +24,4 @@
   h3 {
     @apply text-lg;
   }
-  button {
-    @apply bg-quaternary font-bold text-secondary rounded-xl text-xl py-2 px-4 sm:text-2xl sm:py-4 sm:px-8;
-  }
 }
